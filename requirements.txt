@@ -1,0 +1,27 @@
+# Genome Sonics - Requirements
+# Python 3.9+ recommended
+
+# Core
+streamlit>=1.28.0
+numpy>=1.24.0
+
+# MIDI generation
+midiutil>=1.2.1
+
+# Image processing
+Pillow>=9.5.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Scientific computing
+scipy>=1.10.0
+
+# Bioinformatics (optional, for advanced parsing)
+# biopython>=1.81
+
+# Note: FluidSynth is a system dependency, not a pip package
+# Install separately:
+#   Ubuntu/WSL: sudo apt install fluidsynth fluid-soundfont-gm
+#   Windows: choco install fluidsynth
