@@ -1697,5 +1697,8 @@ st.markdown("""
     <p style="font-size: 0.9em;">
         DNA is information. We experience it through sound and sight.
     </p>
+    <div style="margin-top: 10px;">
+        <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fsynthomics.local&countColor=%237c3aed" alt="Visitor Count" />
+    </div>
 </div>
 """, unsafe_allow_html=True)
